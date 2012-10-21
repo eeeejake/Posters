@@ -1,0 +1,68 @@
+#navbar 
+        {
+        margin:0;
+        padding:0;
+        list-style:none;
+        } 
+#navbar li 
+        {
+        float:left;
+        display:block;
+        width:120px;
+        position:relative;
+        z-index:500;
+        margin:0px;
+        }
+
+#navbar ul a:hover 
+        {
+        text-decoration:underline;
+        color: #C0F7FE;
+        }
+        
+#navbar li a:hover
+        {
+        text-decoration:underline;
+        color: #C0F7FE;
+        }
+
+/* this is the parent menu */
+#navbar li a 
+        {
+        color:#fff;
+        display:block;
+        padding:.25em;
+        text-decoration:none;
+        text-align:center;
+        background-color: #000033;
+        margin: 0em;
+        border-right: 1px dotted #fff;
+        border-bottom: 1px dotted #fff;
+        }
+
+/* submenu, it's hidden by default */
+#navbar ul
+        {
+        position:absolute;
+        left:0;
+        display:none;
+        margin:0;
+        padding:0;
+        list-style:none;
+        }
+         
+#navbar ul li 
+        {
+        width:120px;
+        float:left;
+        border-right: 1px dotted #fff;
+        }
+         
+/* display block will make the link fill the whole area of LI */
+#navbar ul a 
+        {
+        display:block; 
+        padding: .25em;
+        }
+         
+

@@ -1,0 +1,131 @@
+/* Generic Selectors */
+body {
+    background-image: url("../images/dot_tile.jpg");
+    margin:0px;
+}
+
+h1 {
+    color: #000033;
+    font-family: Garamond, Georgia, Times, “Times New Roman”, serif;
+    line-height:2.5em;
+    padding: .5em;
+    margin-top:1em;
+    margin-bottom:0px;
+    border-bottom: 1px dotted #999;
+}
+
+p {
+   color: #333;
+   padding: .25em;
+}
+
+li {
+    list-style-type: none;
+    font-family: "Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    font-size: 12px;
+}
+
+address {
+    border-top: 1px dotted #999;
+    padding:1em;
+    text-align: center;
+}
+
+input:focus {
+    background: #C0F7FE;
+}
+
+/*ID elements*/
+#wrapper {
+    width: 900px;
+    margin-top:0px;
+    background-color:#000;
+    margin:auto;
+}
+
+#header {
+    background-color:orange;/*#F9FCFF*/;
+    background-image: url('../images/me.png');
+    background-repeat: no-repeat;
+    background-position:bottom center;
+}
+
+#column {
+    background-color:yellow;
+    width: 340px;
+    min-height:500px;
+    margin:0px;
+    float: left;
+    clear: left;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#content {
+    background-color:#00CC00;
+    width: 540px;
+    min-height:500px;
+    float:right;
+    clear: none;
+    text-align: center;
+}
+
+
+#pictureFrame img{
+    border:thick groove;
+    margin:auto;
+    margin-top:3.5em;
+}
+
+#footer{
+   background-color:#9900CC;
+   clear:both;
+}
+
+#ticker{
+   float:right;
+   font-weight:bold;
+   text-align:right;
+   margin:5px;
+   padding:0px;
+}
+
+table#thumbs{
+    text-align: center;
+    margin:auto;
+}
+
+table#thumbs td{
+    text-align:center;
+}
+
+/*changes color of current page menu link according to php include*/
+#navbar li a.current {
+    color: #C0F7FE;
+}
+
+/*class elements*/
+.caption {
+    font-family: "Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.compact {   
+    font-family: "Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.required {   
+    font-family: "Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color:red;
+}
+
+.blue {   
+    color:blue;
+}
